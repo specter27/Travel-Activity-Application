@@ -7,22 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41FD9B4827FA791E00E6E3E8 /* WebsiteWebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FD9B4727FA791E00E6E3E8 /* WebsiteWebViewViewController.swift */; };
 		E73EDB0E27F2D699009A4259 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73EDB0D27F2D699009A4259 /* AppDelegate.swift */; };
 		E73EDB1027F2D699009A4259 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73EDB0F27F2D699009A4259 /* SceneDelegate.swift */; };
-		E73EDB1227F2D699009A4259 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73EDB1127F2D699009A4259 /* ViewController.swift */; };
+		E73EDB1227F2D699009A4259 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73EDB1127F2D699009A4259 /* LoginViewController.swift */; };
 		E73EDB1527F2D699009A4259 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E73EDB1327F2D699009A4259 /* Main.storyboard */; };
 		E73EDB1727F2D69A009A4259 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E73EDB1627F2D69A009A4259 /* Assets.xcassets */; };
 		E73EDB1A27F2D69A009A4259 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E73EDB1827F2D69A009A4259 /* LaunchScreen.storyboard */; };
 		E73EDB2527F2DD39009A4259 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73EDB2427F2DD39009A4259 /* Activity.swift */; };
 		E73EDB2727F2E894009A4259 /* TouristActivityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73EDB2627F2E894009A4259 /* TouristActivityApp.swift */; };
 		E73EDB2A27F2E900009A4259 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73EDB2927F2E900009A4259 /* User.swift */; };
+		E77F50A827F430450008E276 /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77F50A727F430450008E276 /* ActivityViewController.swift */; };
+		E79486D427F57BC2009950CA /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79486D327F57BC2009950CA /* Ticket.swift */; };
+		E7A90BAD27F63410007B39E1 /* PurchasedTicketsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A90BAC27F63410007B39E1 /* PurchasedTicketsViewController.swift */; };
+		E7A90BB027F6397A007B39E1 /* TicketTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A90BAF27F6397A007B39E1 /* TicketTableViewCell.swift */; };
+		E7A90BF527F6A5B2007B39E1 /* ActivityCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A90BF427F6A5B2007B39E1 /* ActivityCollectionViewCell.swift */; };
+		E7A90BF727F6B70C007B39E1 /* ActivityDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A90BF627F6B70C007B39E1 /* ActivityDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		41FD9B4727FA791E00E6E3E8 /* WebsiteWebViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsiteWebViewViewController.swift; sourceTree = "<group>"; };
 		E73EDB0A27F2D699009A4259 /* Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E73EDB0D27F2D699009A4259 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E73EDB0F27F2D699009A4259 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E73EDB1127F2D699009A4259 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E73EDB1127F2D699009A4259 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		E73EDB1427F2D699009A4259 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E73EDB1627F2D69A009A4259 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E73EDB1927F2D69A009A4259 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -30,6 +38,12 @@
 		E73EDB2427F2DD39009A4259 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
 		E73EDB2627F2E894009A4259 /* TouristActivityApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouristActivityApp.swift; sourceTree = "<group>"; };
 		E73EDB2927F2E900009A4259 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E77F50A727F430450008E276 /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
+		E79486D327F57BC2009950CA /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
+		E7A90BAC27F63410007B39E1 /* PurchasedTicketsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchasedTicketsViewController.swift; sourceTree = "<group>"; };
+		E7A90BAF27F6397A007B39E1 /* TicketTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketTableViewCell.swift; sourceTree = "<group>"; };
+		E7A90BF427F6A5B2007B39E1 /* ActivityCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCollectionViewCell.swift; sourceTree = "<group>"; };
+		E7A90BF627F6B70C007B39E1 /* ActivityDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +76,9 @@
 		E73EDB0C27F2D699009A4259 /* Assignment */ = {
 			isa = PBXGroup;
 			children = (
+				E7A90BF327F6A575007B39E1 /* CollectionViewCells */,
+				E7A90BAE27F6393D007B39E1 /* TableViewCells */,
+				E77F50A627F41D750008E276 /* DB */,
 				E73EDB2827F2E8CC009A4259 /* Models */,
 				E73EDB2127F2D6BA009A4259 /* ViewControllers */,
 				E73EDB0D27F2D699009A4259 /* AppDelegate.swift */,
@@ -77,7 +94,11 @@
 		E73EDB2127F2D6BA009A4259 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				E73EDB1127F2D699009A4259 /* ViewController.swift */,
+				E73EDB1127F2D699009A4259 /* LoginViewController.swift */,
+				E77F50A727F430450008E276 /* ActivityViewController.swift */,
+				E7A90BAC27F63410007B39E1 /* PurchasedTicketsViewController.swift */,
+				E7A90BF627F6B70C007B39E1 /* ActivityDetailViewController.swift */,
+				41FD9B4727FA791E00E6E3E8 /* WebsiteWebViewViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -86,10 +107,34 @@
 			isa = PBXGroup;
 			children = (
 				E73EDB2427F2DD39009A4259 /* Activity.swift */,
-				E73EDB2627F2E894009A4259 /* TouristActivityApp.swift */,
 				E73EDB2927F2E900009A4259 /* User.swift */,
+				E79486D327F57BC2009950CA /* Ticket.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		E77F50A627F41D750008E276 /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				E73EDB2627F2E894009A4259 /* TouristActivityApp.swift */,
+			);
+			path = DB;
+			sourceTree = "<group>";
+		};
+		E7A90BAE27F6393D007B39E1 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				E7A90BAF27F6397A007B39E1 /* TicketTableViewCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		E7A90BF327F6A575007B39E1 /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				E7A90BF427F6A5B2007B39E1 /* ActivityCollectionViewCell.swift */,
+			);
+			path = CollectionViewCells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,12 +208,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7A90BF727F6B70C007B39E1 /* ActivityDetailViewController.swift in Sources */,
 				E73EDB2527F2DD39009A4259 /* Activity.swift in Sources */,
 				E73EDB2727F2E894009A4259 /* TouristActivityApp.swift in Sources */,
 				E73EDB2A27F2E900009A4259 /* User.swift in Sources */,
-				E73EDB1227F2D699009A4259 /* ViewController.swift in Sources */,
+				E7A90BF527F6A5B2007B39E1 /* ActivityCollectionViewCell.swift in Sources */,
+				E79486D427F57BC2009950CA /* Ticket.swift in Sources */,
+				E73EDB1227F2D699009A4259 /* LoginViewController.swift in Sources */,
+				E77F50A827F430450008E276 /* ActivityViewController.swift in Sources */,
+				E7A90BAD27F63410007B39E1 /* PurchasedTicketsViewController.swift in Sources */,
+				E7A90BB027F6397A007B39E1 /* TicketTableViewCell.swift in Sources */,
 				E73EDB0E27F2D699009A4259 /* AppDelegate.swift in Sources */,
 				E73EDB1027F2D699009A4259 /* SceneDelegate.swift in Sources */,
+				41FD9B4827FA791E00E6E3E8 /* WebsiteWebViewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +369,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VALL24GHDY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Assignment/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -344,6 +397,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VALL24GHDY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Assignment/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
