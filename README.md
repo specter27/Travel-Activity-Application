@@ -19,7 +19,7 @@ This is a `Tourist Activity Booking` Application developed for **iOS Platform** 
 
 ## Additional Info
 
-> * Application Features Video Demonstartion :movie_camera: [Here](https://drive.google.com/file/d/1T1OEZh0ACARThKQSm5i4UwpWj5wzqZ_k/view?usp=sharing).
+> * Application Features Video Demonstartion :movie_camera: [Here](https://drive.google.com/file/d/1vsVFmbE27wt7G65J7DfMQ2GDTrfKrjQ6/view?usp=sharing).
 > * Detailed Description of the Application :mag::page_with_curl:  [Here](https://drive.google.com/file/d/1VQiNq5Hp9Rt0Vwt-qNtPhoGRM39YvVsn/view?usp=sharing).
 
 **Authors**: `Harshit Malhotra`, `Nirav`
